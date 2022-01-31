@@ -9,7 +9,7 @@ public class MainController {
 
 	@GetMapping("/")
 	public String get() {
-		return "Jenkins is fun!";
+		return "Jenkins is fun! ";
 	}
 
 	@GetMapping("/link")
